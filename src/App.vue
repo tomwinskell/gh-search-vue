@@ -1,0 +1,16 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <main>
+    <div class="input-group input-group-sm mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+  </main>
+</template>
+
+<style scoped>
+
+</style>
