@@ -21,7 +21,8 @@ async function handleSearch(query: string) {
 <template>
   <div class="container mt-5">
     <div class="container text-center mb-3">
-      <div class="row row-cols-2 row-cols-md-3 g-3">
+      <h1 class="mb-3">Facebook React GitHub</h1>
+      <div v-if="people.length > 0" class="row row-cols-2 row-cols-md-3 g-3">
         <PersonCard
           v-for="(person, index) in people"
           :key="index"
@@ -29,6 +30,12 @@ async function handleSearch(query: string) {
           :image="person.image || 'defaultImage.png'"
         />
       </div>
+      <p v-else>
+        Enter a SHA_HASH from
+        <a href="https://github.com/facebook/react" target="_blank"
+          >https://github.com/facebook/react</a
+        >. Uses GitHub API to return a photo and user handle.
+      </p>
     </div>
 
     <SearchForm @search="handleSearch" />
