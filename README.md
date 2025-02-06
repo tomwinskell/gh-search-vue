@@ -1,18 +1,8 @@
 # gh-search
 
-This template should help get you started developing with Vue 3 in Vite.
+This was a starter project to help me try Vue. It uses the GitHub API to show headshots of the individuals who made a commit.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+You can get a SHA_HASH from [https://github.com/facebook/react](https://github.com/facebook/react) and use the search. It will return a photo and user handle.
 
 ## Project Setup
 
